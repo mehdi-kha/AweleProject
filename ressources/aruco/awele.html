@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>ARCS: marker experiment</title>
+    <link type="text/css" rel="stylesheet" href="arcs.css">
+    <script data-main="../../build/arcs_browser" 
+    data-base-url="../.." 
+    data-arcsapp="arcsapp.json" 
+    src="../../deps/requirejs/require.js">
+</script>
+<meta charset="UTF-8"> 
+</head>
+<body>
+    <div id="right">
+        <video id="video" width=320 height=240 autoplay="true" style="display: none;">
+        </video>
+
+        <canvas id="canvas">
+        </canvas>
+        <div id="container" >
+        </div>
+        <div id="contents">
+            <a id="logo" href="http://arcs.ibisc.univ-evry.fr"><img src="../../docs/arcs_logo.png" alt="ARCS"/></a>
+        </div>
+    </div>
+    <div id="left">
+    <h2 id="instruction">C'est au tour du joueur n°</h2>
+        <p id="turn"></p>
+        <h2>Score du joueur 1: </h2>
+        <p id="score1">0</p>
+        <h2>Score du joueur 2 : </h2>
+        <p id="score2">0</p>
+        <h2 id="status"></h2>
+        <h2 id="winner"></h2>
+    </div>
+</body>
+</html>
